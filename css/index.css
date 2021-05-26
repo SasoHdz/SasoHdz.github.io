@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background: #2F6690;
+    border: 2px solid black;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    color: white;
+}
+
+header .img{
+    width: 130px;
+    height: 130px;
+    border-radius: 40%;
+    background-image: url('/img/curriculum-foto2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
