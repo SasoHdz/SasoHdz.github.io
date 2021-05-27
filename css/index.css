@@ -65,6 +65,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .contacto h3{
@@ -122,4 +123,75 @@ main{
 
 .link:hover{
     text-decoration: underline;
+}
+
+.skills{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.skills h3{
+    font-size: 1.4rem;
+}
+
+.skills--container{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.certifiti{
+    width: 250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 10px;
+    scroll-snap-align: center;
+}
+
+.certifiti--container{
+    width: 200px;
+    height: 150px;
+    margin: 10px 5px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30,0.16);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.certifiti--container:hover{
+    transform: scale(1.5);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.BasicoJavaScript{
+    background-image: url('/img/CursoBasicoJavaScript.PNG');
+}
+
+.ECMAScript{
+    background-image: url('/img/ECMAScript6+.PNG');
+}
+
+.Regex{
+    background-image: url('/img/Regex.PNG');
+}
+
+.FrontendDeveloper{
+    background-image: url('/img/FrontendDeveloper.PNG')
+}
+
+.FundamentosDB{
+    background-image: url('/img/FundamentosBD.PNG');
+}
+
+.FundamentosJS{
+    background-image: url('/img/FundamentosJS.PNG');
+}
+
+.DefinitivoHTMLCSS{
+    background-image: url('/img/DefinitivoHTMLCSS.PNG');
 }
