@@ -214,3 +214,84 @@ main{
 .DefinitivoHTMLCSS{
     background-image: url('/img/DefinitivoHTMLCSS.PNG');
 }
+
+.projects{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: #353535;
+}
+
+.projects--head{
+    width: 100%;
+    height: auto;
+    background-color: #121f3d;
+}
+.projects--head h3{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.projects--container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+}
+.projects--container-item{
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #252525;
+}
+
+.item--container{
+    width: 200px;
+    height: 150px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.item--container:hover{
+    transform: scale(1.5);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.batabit{
+    background-image: url('/img/Batatabit.PNG');
+}
+
+.google{
+    background-image: url('/img/clonGoogle.PNG');
+}
+
+.simon{
+    background-image: url('/img/SimonDice.PNG');
+}
+
+.item--title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+
+.style2{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
