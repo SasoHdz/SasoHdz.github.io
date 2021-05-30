@@ -4,3 +4,6 @@
 [submodule "projects/SimonDice"]
 	path = projects/SimonDice
 	url = git@github.com:SasoHdz/SimonDice.git
+[submodule "projects/BataBit"]
+	path = projects/BataBit
+	url = git@github.com:SasoHdz/BataBit.git
