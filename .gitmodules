@@ -1,0 +1,3 @@
+[submodule "projects/ClonGoogle"]
+	path = projects/ClonGoogle
+	url = git@github.com:SasoHdz/ClonGoogle.git
