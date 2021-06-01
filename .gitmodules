@@ -1,9 +1,0 @@
-[submodule "projects/ClonGoogle"]
-	path = projects/ClonGoogle
-	url = git@github.com:SasoHdz/ClonGoogle.git
-[submodule "projects/SimonDice"]
-	path = projects/SimonDice
-	url = git@github.com:SasoHdz/SimonDice.git
-[submodule "projects/BataBit"]
-	path = projects/BataBit
-	url = git@github.com:SasoHdz/BataBit.git
