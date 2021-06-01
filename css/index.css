@@ -282,6 +282,9 @@ main{
     background-image: url('/img/SimonDice.PNG');
 }
 
+.platziVideo{
+    background-image: url('/img/platziVideo.PNG');
+}
 .item--title{
     font-size: 1.4rem;
     font-weight: bold;
