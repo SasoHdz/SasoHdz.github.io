@@ -125,6 +125,82 @@ main{
     text-decoration: underline;
 }
 
+.progressBarSkills
+{
+    width: 100%;
+    height: auto;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progressBarSkills h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.progressBarSkills__container{
+    width: 100%;
+    height: auto;
+}
+
+.progressBarSkills__container-skill{
+    width: 70%;
+    height: auto;
+    margin: 20px auto 0px;
+    border: #2F6690 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30,0.16);
+}
+
+.progressBarSkills__container-skill h4{
+    margin: 10px 60px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.progressBar{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.bar {
+    width: 200px;
+    height: 20px;
+    background-color:#68a4d3;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.html {
+    width: calc(2px*70);
+}
+
+.css {
+    width: calc(2px*65);
+}
+
+.javascript {
+    width: calc(2px*60);
+}
+
+.progress {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #252525;
+    font-size: 12px;
+    color: white;
+    padding: 6px;
+    margin-left:-5px;
+}
+
 .skills{
     width: 100%;
     height: auto;
